@@ -14,6 +14,11 @@ document.getElementById('publish-btn').addEventListener('click', () => {
       alert('Please fill in both fields.');
     }
   });
+  document.querySelector('.box h2').addEventListener('click', () => {
+    const content = document.querySelector('.box p');
+    content.style.display = content.style.display === 'none' ? 'block' : 'none';
+  });
+  
   
 
   
